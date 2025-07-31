@@ -15,5 +15,5 @@ else
     echo "granted.fecs.bak already exists; not overwriting"
 fi
 
-# add Android Auto
-fecswap -a 00060900 -f /mnt/persist_new/fec/granted.fecs
+# add AMI/USB enabled, Bluetooth, Android Auto
+fecswap -a 00030000 00050000 00060900 -f /mnt/persist_new/fec/granted.fecs
