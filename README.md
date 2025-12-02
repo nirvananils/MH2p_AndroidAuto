@@ -9,3 +9,4 @@ Activates Android Auto.
  - for use with [MH2p SD ModKit](https://github.com/LawPaul/MH2p_SD_ModKit)
 ## How it works
  - adds Android Auto FEC & codes 5F
+ - Fixes bug that's causing multiple phones not working (https://github.com/fifthBro/pcm5-androidauto-connect-fix)
